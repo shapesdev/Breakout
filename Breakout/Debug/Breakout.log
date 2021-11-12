@@ -1,2 +1,3 @@
 ﻿  Breakout.cpp
-  Breakout.vcxproj -> C:\Users\Donc3 Kebabas\Desktop\Breakout\Debug\Breakout.exe
+C:\Users\Donc3 Kebabas\Documents\GitHub\Breakout\Breakout\src\Breakout.cpp(54,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Breakout.vcxproj -> C:\Users\Donc3 Kebabas\Documents\GitHub\Breakout\Debug\Breakout.exe

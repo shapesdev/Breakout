@@ -1,0 +1,45 @@
+﻿  ResourceManager.cpp
+C:\Users\Donc3 Kebabas\Documents\GitHub\Breakout\Breakout\src\Utilities\ResourceManager.cpp(62,10): warning C4553: '==': result of expression not used; did you intend '='?
+  Breakout.cpp
+C:\Users\Donc3 Kebabas\Documents\GitHub\Breakout\Breakout\src\Breakout.cpp(54,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Texture2D.cpp
+  Generating Code...
+ResourceManager.obj : error LNK2001: unresolved external symbol __glewDeleteProgram
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Shader,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Shader> > > ResourceManager::Shaders" (?Shaders@ResourceManager@@2V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VShader@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VShader@@@std@@@2@@std@@A)
+ResourceManager.obj : error LNK2001: unresolved external symbol "public: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Texture2D,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Texture2D> > > ResourceManager::Textures" (?Textures@ResourceManager@@2V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VTexture2D@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VTexture2D@@@std@@@2@@std@@A)
+Shader.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+Shader.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __glewUniform1i
+Shader.obj : error LNK2001: unresolved external symbol __glewUniform2f
+Shader.obj : error LNK2001: unresolved external symbol __glewUniform3f
+Shader.obj : error LNK2001: unresolved external symbol __glewUniform4f
+Shader.obj : error LNK2001: unresolved external symbol __glewUniformMatrix2fv
+Shader.obj : error LNK2001: unresolved external symbol __glewUniformMatrix3fv
+Shader.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
+Shader.obj : error LNK2001: unresolved external symbol __glewUseProgram
+Breakout.obj : error LNK2019: unresolved external symbol glewInit referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl Key_callback(struct GLFWwindow *,int,int,int,int)" (?Key_callback@@YAXPEAUGLFWwindow@@HHHH@Z)
+Breakout.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+Breakout.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+C:\Users\Donc3 Kebabas\Documents\GitHub\Breakout\\Dependancies\GLEW\lib\Release\Win32\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Donc3 Kebabas\Documents\GitHub\Breakout\\Dependancies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Donc3 Kebabas\Documents\GitHub\Breakout\x64\Debug\Breakout.exe : fatal error LNK1120: 36 unresolved externals
